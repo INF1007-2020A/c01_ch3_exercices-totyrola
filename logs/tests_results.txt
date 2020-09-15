@@ -43,13 +43,13 @@ FAIL: test_to_farenheit (__main__.TestExercice)
 Traceback (most recent call last):
   File "test_exercice.py", line 86, in test_to_farenheit
     'Mauvais calcul de celsius -> farenheit'
-AssertionError: Lists differ: [0.0, 0.0, 0.0] != [32.0, -13.0, 843.8000000000001]
+AssertionError: Lists differ: [(), (), ()] != [32.0, -13.0, 843.8000000000001]
 
 First differing element 0:
-0.0
+()
 32.0
 
-- [0.0, 0.0, 0.0]
+- [(), (), ()]
 + [32.0, -13.0, 843.8000000000001] : Mauvais calcul de celsius -> farenheit
 
 ======================================================================
@@ -68,6 +68,6 @@ First differing element 0:
 + [-0.08668468618238503, 0.17598251810595048, 6.283490739798685, 6.9973449482748] : Mauvais calcul de degres -> radians
 
 ----------------------------------------------------------------------
-Ran 5 tests in 0.002s
+Ran 5 tests in 0.001s
 
 FAILED (failures=4)
