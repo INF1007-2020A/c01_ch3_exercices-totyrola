@@ -13,7 +13,7 @@ Traceback (most recent call last):
   File "test_exercice.py", line 37, in <listcomp>
     output = [exercice.to_radians(*v) for v in values]
   File "/home/runner/work/c01_ch3_exercices-totyrola/c01_ch3_exercices-totyrola/exercice.py", line 18, in to_radians
-    angle_final = maths.radians
+    angle_final = maths.radians (angle_degs + angle_mins / 60 + angle_secs / 3600)
 NameError: name 'maths' is not defined
 
 ======================================================================
