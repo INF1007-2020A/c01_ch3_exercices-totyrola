@@ -6,7 +6,7 @@ import math
 
 
 def average(a: float, b: float, c: float) -> float:
-    return (a + + b) / 3
+    return (a + c + b) / 3
 
 
 
