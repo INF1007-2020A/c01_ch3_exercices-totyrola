@@ -15,7 +15,7 @@ def to_radians(angle_degs: float, angle_mins: float, angle_secs: float) -> float
     angle_secs /= 3600
     angle_mins %= 1
     angle_total = (angle_degs + angle_mins + angle_secs)
-    angle 
+    angle_rad =  
 
 
     return 0.0
