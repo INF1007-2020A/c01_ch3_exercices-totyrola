@@ -7,7 +7,7 @@ import math
 
 def average(a: float, b: float, c: float) -> float:
     return (a + + b) / 3
-    
+
 
 
 def to_radians(angle_degs: float, angle_mins: float, angle_secs: float) -> float:
@@ -19,8 +19,7 @@ def to_degrees(angle_rads: float) -> tuple:
 
 
 def to_celsius(temperature: float) -> float:
-    return 0.0
-
+    return (temper)
 
 def to_farenheit(temperature: float) -> float:
     return 0.0
